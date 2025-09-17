@@ -45,19 +45,19 @@ export const ProblemSection = () => {
                 className="grid grid-cols-1 sm:grid-cols-2 gap-6"
               >
                 <div className="bg-card p-6 rounded-xl">
-                  <div className="text-3xl font-bold text-destructive mb-2">$87B</div>
-                  <div className="text-sm text-card-foreground">Annual cost of congestion in the US</div>
+                  <div className="text-3xl font-bold text-destructive mb-2">₹1.5 trillion</div>
+                  <div className="text-sm text-card-foreground">Annual cost of congestion in the India</div>
                 </div>
                 <div className="bg-card p-6 rounded-xl">
-                  <div className="text-3xl font-bold text-warning mb-2">54 Hours</div>
+                  <div className="text-3xl font-bold text-warning mb-2">500 Hours</div>
                   <div className="text-sm text-card-foreground">Average time lost per commuter yearly</div>
                 </div>
                 <div className="bg-card p-6 rounded-xl">
-                  <div className="text-3xl font-bold text-secondary mb-2">3.3B</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">40,000 kiloliters</div>
                   <div className="text-sm text-card-foreground">Gallons of fuel wasted annually</div>
                 </div>
                 <div className="bg-card p-6 rounded-xl">
-                  <div className="text-3xl font-bold text-accent mb-2">25%</div>
+                  <div className="text-3xl font-bold text-accent mb-2">136%</div>
                   <div className="text-sm text-card-foreground">Increase in CO2 emissions</div>
                 </div>
               </motion.div>
