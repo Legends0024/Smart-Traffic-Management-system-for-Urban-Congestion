@@ -54,7 +54,7 @@ export const VideoSection = () => {
                 <video
                   className="w-full h-full object-cover rounded-2xl"
                   controls
-                  poster="/placeholder.png"
+                  poster="/video-thumb.png"
                 >
                   <source src="/demo.mp4" type="video/mp4" />
                   Your browser does not support the video tag.

@@ -93,7 +93,7 @@ export const HowItWorksSection = () => {
                     <video
                       className="w-full h-48 object-cover"
                       controls
-                      poster="/api/placeholder/400/300"
+                      poster={step.video === "sumo.mp4" ? "/sumo-thumb.png" : "/api/placeholder/400/300"}
                     >
                       <source src={step.video} type="video/mp4" />
                       Your browser does not support the video tag.
